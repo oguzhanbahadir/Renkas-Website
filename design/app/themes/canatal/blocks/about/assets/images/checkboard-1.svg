@@ -1,0 +1,37 @@
+<svg version="1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 525 940">
+  <style>
+    .st0{fill:#68c}.st1{fill:#182978}.st2{fill:#acbfe6}
+  </style>
+  <path transform="rotate(-45 419 887)" class="st0" d="M382 850h74v74h-74z"/>
+  <path transform="rotate(-45 367 834)" class="st1" d="M330 797h74v74h-74z"/>
+  <path transform="rotate(-45 315 887)" class="st0" d="M278 850h74v74h-74z"/>
+  <path transform="rotate(-45 262 834)" class="st2" d="M225 797h74v74h-74z"/>
+  <path transform="rotate(-45 105 887)" class="st0" d="M68 850h74v74H68z"/>
+  <path transform="rotate(-45 158 834)" class="st2" d="M121 797h74v74h-74z"/>
+  <path transform="rotate(-45 53 730)" class="st1" d="M16 693h74v74H16z"/>
+  <path transform="rotate(-45 105 677)" class="st0" d="M68 640h74v74H68z"/>
+  <path transform="rotate(-45 263 730)" class="st2" d="M226 693h74v74h-74z"/>
+  <path transform="rotate(-45 367 730)" class="st1" d="M330 693h74v74h-74z"/>
+  <path transform="rotate(-45 472 730)" class="st2" d="M435 693h74v74h-74z"/>
+  <path transform="rotate(-45 105 575)" class="st0" d="M68 538h74v74H68z"/>
+  <path class="st2" d="M106 523l52-53 52 53-52 52"/>
+  <path transform="rotate(-45 53 522)" class="st1" d="M16 485h74v74H16z"/>
+  <path transform="rotate(-45 105 366)" class="st0" d="M68 329h74v74H68z"/>
+  <path transform="rotate(-45 158 418)" class="st2" d="M121 381h74v74h-74z"/>
+  <path transform="rotate(-45 367 418)" class="st1" d="M330 381h74v74h-74z"/>
+  <path transform="rotate(-45 472 418)" class="st2" d="M435 381h74v74h-74z"/>
+  <path transform="rotate(-45 419 263)" class="st0" d="M382 226h74v74h-74z"/>
+  <path transform="rotate(-45 472 211)" class="st2" d="M435 174h74v74h-74z"/>
+  <path transform="rotate(-45 367 211)" class="st1" d="M330 174h74v74h-74z"/>
+  <path transform="rotate(-45 315 263)" class="st0" d="M278 226h74v74h-74z"/>
+  <path transform="rotate(-45 262 211)" class="st2" d="M225 174h74v74h-74z"/>
+  <path transform="rotate(-45 105 263)" class="st0" d="M68 226h74v74H68z"/>
+  <path transform="rotate(-45 158 211)" class="st2" d="M121 174h74v74h-74z"/>
+  <path transform="rotate(-45 53 211)" class="st1" d="M16 174h74v74H16z"/>
+  <path class="st1" d="M53 54l53 52-53 52-52-52 52-52"/>
+  <path class="st2" d="M158 54l52 52-52 52-52-52 52-52"/>
+  <path class="st0" d="M315 106l52-52-52-53-52 53zM420 106l52-52-52-53-53 53zM106 106l52-52-52-53-53 53z"/>
+  <path class="st2" d="M263 54l52 52-52 52-53-52 53-52"/>
+  <path class="st1" d="M367 54l53 52-53 52-52-52 52-52"/>
+  <path class="st2" d="M472 54l52 52-52 52-52-52 52-52"/>
+</svg>
