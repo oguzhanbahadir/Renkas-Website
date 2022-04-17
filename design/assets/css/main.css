@@ -1341,7 +1341,7 @@ h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child {
     font-weight: 400;
     font-size: 1.375rem;
     letter-spacing: -.01em;
-    opacity: 0;
+    
     transform: translateX(.9375rem);
     transition-property: opacity, transform;
     transition-duration: 1.25s;
@@ -1523,7 +1523,7 @@ h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child {
 }
 
 [data-watch] .dash-text {
-    opacity: 0;
+    
     transform-origin: center left;
     transition-property: opacity, transform;
     transition-duration: 1.25s;
@@ -2186,7 +2186,7 @@ h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child {
 }
 
 .error-404-content > * {
-    opacity: 0;
+    
     transform: translateY(1.875rem)
 }
 
@@ -2269,14 +2269,12 @@ body {
     line-height: 1.8;
     margin: 0;
     overflow-y: auto;
-    overflow-x: hidden;
     padding: 0
 }
 
 @media (min-width: 1200px) {
     body {
         height: 100%;
-        overflow: hidden
     }
 }
 
@@ -2789,7 +2787,7 @@ button.swiper-pagination-bullet {
     left: 0;
     top: 0;
     pointer-events: none;
-    opacity: 0;
+    
     z-index: -1000
 }
 
@@ -2939,7 +2937,7 @@ body.compensate-for-scrollbar {
 
 .fancybox-bg {
     background: #1e1e1e;
-    opacity: 0;
+    
     transition-duration: inherit;
     transition-property: opacity;
     transition-timing-function: cubic-bezier(.47, 0, .74, .71)
@@ -2952,7 +2950,7 @@ body.compensate-for-scrollbar {
 
 .fancybox-caption, .fancybox-infobar, .fancybox-navigation .fancybox-button, .fancybox-toolbar {
     direction: ltr;
-    opacity: 0;
+    
     position: absolute;
     transition: opacity .25s ease, visibility 0s ease .25s;
     visibility: hidden;
@@ -3285,7 +3283,7 @@ body.compensate-for-scrollbar {
 .fancybox-navigation .fancybox-button {
     background-clip: content-box;
     height: 100px;
-    opacity: 0;
+    
     position: absolute;
     top: calc(50% - 50px);
     width: 70px
@@ -3371,12 +3369,12 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-fx-slide.fancybox-slide--previous {
-    opacity: 0;
+    
     transform: translate3d(-100%, 0, 0)
 }
 
 .fancybox-fx-slide.fancybox-slide--next {
-    opacity: 0;
+    
     transform: translate3d(100%, 0, 0)
 }
 
@@ -3386,7 +3384,7 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-fx-fade.fancybox-slide--next, .fancybox-fx-fade.fancybox-slide--previous {
-    opacity: 0;
+    
     transition-timing-function: cubic-bezier(.19, 1, .22, 1)
 }
 
@@ -3395,12 +3393,12 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-fx-zoom-in-out.fancybox-slide--previous {
-    opacity: 0;
+    
     transform: scale3d(1.5, 1.5, 1.5)
 }
 
 .fancybox-fx-zoom-in-out.fancybox-slide--next {
-    opacity: 0;
+    
     transform: scale3d(.5, .5, .5)
 }
 
@@ -3410,12 +3408,12 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-fx-rotate.fancybox-slide--previous {
-    opacity: 0;
+    
     transform: rotate(-1turn)
 }
 
 .fancybox-fx-rotate.fancybox-slide--next {
-    opacity: 0;
+    
     transform: rotate(1turn)
 }
 
@@ -3425,12 +3423,12 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-fx-circular.fancybox-slide--previous {
-    opacity: 0;
+    
     transform: scale3d(0, 0, 0) translate3d(-100%, 0, 0)
 }
 
 .fancybox-fx-circular.fancybox-slide--next {
-    opacity: 0;
+    
     transform: scale3d(0, 0, 0) translate3d(100%, 0, 0)
 }
 
@@ -3666,7 +3664,7 @@ body.compensate-for-scrollbar {
     bottom: 0;
     content: "";
     left: 0;
-    opacity: 0;
+    
     position: absolute;
     right: 0;
     top: 0;
@@ -3903,7 +3901,7 @@ body.compensate-for-scrollbar {
     min-width: 100%;
     height: auto;
     width: auto;
-    opacity: 0;
+    
     z-index: 99;
     background-color: #fff;
     filter: alpha(opacity=0)
@@ -4463,7 +4461,7 @@ body.compensate-for-scrollbar {
         justify-content: flex-start;
         background: #fff;
         overflow: auto;
-        opacity: 0;
+        
         padding: 7.5rem;
         padding-left: 0;
         padding-right: 0;
@@ -4667,7 +4665,7 @@ body.compensate-for-scrollbar {
 }
 
 .main-layout-header-menu-sub-content {
-    opacity: 0;
+    
     transition-property: opacity;
     transition-duration: .35s;
     transition-timing-function: cubic-bezier(.215, .61, .355, 1);
@@ -4790,7 +4788,7 @@ body.compensate-for-scrollbar {
 
 @media (max-width: 991px) {
     .main-layout-header-menu-sub-items {
-        opacity: 0;
+        
         transition-property: opacity, transform;
         transition-duration: .35s;
         transition-timing-function: cubic-bezier(.215, .61, .355, 1)
@@ -5064,7 +5062,7 @@ body.compensate-for-scrollbar {
     }
 
     .main-menu-opened .main-layout-header-menu-show-button {
-        opacity: 0;
+        
         visibility: hidden
     }
 }
@@ -5116,7 +5114,7 @@ body.compensate-for-scrollbar {
     justify-content: center;
     cursor: pointer;
     height: 1.875rem;
-    opacity: 0;
+    
     transition-property: opacity, transform, visibility;
     transition-duration: 1.25s;
     transition-timing-function: cubic-bezier(.19, 1, .22, 1);
@@ -5593,7 +5591,7 @@ body.compensate-for-scrollbar {
 }
 
 .main-layout-loader--enter .main-layout-loader-progress {
-    opacity: 0;
+    
     transform: translateX(1.875rem);
     transition-property: opacity, transform;
     transition-duration: 1.25s;
@@ -5643,7 +5641,7 @@ body.compensate-for-scrollbar {
 }
 
 .main-layout-loader--enter .main-layout-loader-logo {
-    opacity: 0;
+    
     transform: translateX(3.75rem);
     transition-property: opacity, transform;
     transition-duration: 1.25s;
